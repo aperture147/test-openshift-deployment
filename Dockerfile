@@ -1,5 +1,5 @@
 # Use official Python image
-FROM python:3.13-slim
+FROM registry.redhat.io/ubi9/python-311
 
 # Set working directory
 WORKDIR /app
